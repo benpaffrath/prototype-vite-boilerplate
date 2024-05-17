@@ -10,11 +10,21 @@
     "lint": "eslint \"src/**/*.ts\""
   },
   "dependencies": {
-    "@repo/ui": "*"
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.15.18",
+    "@panocreation/react-auth": "^1.12.17",
+    "@repo/ui": "*",
+    "formik": "^2.4.6",
+    "lodash.get": "^4.4.2",
+    "lodash.noop": "^3.0.1"
   },
   "devDependencies": {
     "@repo/eslint-config": "*",
     "@repo/typescript-config": "*",
+    "@types/lodash.get": "^4.4.9",
+    "@types/lodash.noop": "^3.0.9",
+    "@types/react-dom": "^18.3.0",
     "eslint": "^8.57.0",
     "typescript": "^5.3.3",
     "vite": "^5.1.4"
